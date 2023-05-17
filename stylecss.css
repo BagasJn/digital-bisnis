@@ -1,0 +1,53 @@
+:root {
+  --primary: #000000;
+  --bg: #edeef1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  text-decoration: none;
+}
+
+#judul {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-bottom: 1px solid #edeef1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+.navbar-nav a {
+  color: #000000;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #edeef1;
+}
