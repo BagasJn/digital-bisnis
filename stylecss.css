@@ -286,7 +286,7 @@ img {
   display: flex;
   align-items: center;
   margin-top: 2rem;
-  background-color: var(--bg);
+  background-color: #EDEEF1;
   border: 1px solid black;
   padding-left: 2rem;
 }
